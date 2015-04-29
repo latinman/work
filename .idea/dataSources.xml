@@ -9,9 +9,8 @@
     </data-source>
     <data-source source="LOCAL" name="Rails work: test" uuid="70adc035-badf-4920-80c1-9eebdaec4c7a">
       <driver-ref>mysql</driver-ref>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:db/test.sqlite3</jdbc-url>
-      <user-name>erivas78</user-name>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/test.sqlite3</jdbc-url>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails work: production" uuid="db8bd734-d162-4a27-80af-171d1cf62c73">
